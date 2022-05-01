@@ -14,4 +14,4 @@ def bus_stations(request):
     #     'bus_stations': ...,
     #     'page': ...,
     }
-    return render(request, 'stations/index.html', context)
+    return render(request, 'stations/omlet.html', context)
