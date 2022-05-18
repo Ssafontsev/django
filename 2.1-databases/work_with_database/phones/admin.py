@@ -4,5 +4,5 @@ from .models import Phone
 # Register your models here.
 @admin.register(Phone)
 class PhoneAdmin(admin.ModelAdmin):
-    pass
+    list_display = ('id', 'name', 'price', 'release_date', 'slug')
 
